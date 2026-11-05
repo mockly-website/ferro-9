@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ferro 9 — palestra (sito dimostrativo di Mockly)</title>
+<meta name="description" content="Ferro 9 è una palestra inventata: sito dimostrativo di Mockly. Sala pesi, corsi, orario filtrabile e richiesta di prova gratuita su WhatsApp.">
+<meta name="theme-color" content="#0a0a0a">
+<meta name="robots" content="noindex">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="it_IT">
+<meta property="og:title" content="Ferro 9 — palestra (sito dimostrativo di Mockly)">
+<meta property="og:description" content="Ferro 9 è una palestra inventata: sito dimostrativo di Mockly. Sala pesi, corsi, orario filtrabile e richiesta di prova gratuita su WhatsApp.">
+<meta property="og:image" content="assets/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ferro 9: il nome della palestra in lettere gialle su fondo nero">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preload" href="assets/fonts/anton-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/style.css?v=20261105a">
+<link rel="preload" as="image" href="assets/img/sala-p-800.webp" media="(max-width: 719px), (orientation: portrait)" imagesrcset="assets/img/sala-p-480.webp 480w, assets/img/sala-p-800.webp 800w, assets/img/sala-p-1200.webp 1200w" imagesizes="100vw">
+<script>document.documentElement.classList.add('js');setTimeout(function(){if(!window.__ferro)document.documentElement.classList.add('rv-fallback')},2500)</script>
+</head>
+<body data-page="home">
+<a class="skip-link" href="#main">Vai al contenuto</a>
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="Ferro 9, vai all'inizio">Ferro <b>9</b></a>
+  <nav class="site-nav" aria-label="Principale">
+    <a href="index.html" aria-current="page">Home</a>
+    <a href="corsi.html">Corsi</a>
+    <a href="abbonamenti.html">Abbonamenti</a>
+    <button class="btn btn--small" type="button" data-prova>Prova gratuita</button>
+  </nav>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Apri il menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+<div class="scrim" data-scrim></div>
+<nav class="menu-panel" id="menu" aria-label="Menu" aria-hidden="true">
+  <div class="menu-panel__top">
+    <span class="label">Menu</span>
+    <button class="menu-btn" type="button" data-menu-close aria-label="Chiudi il menu" aria-expanded="true">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <ul>
+    <li><a href="index.html" aria-current="page"><small>01</small>Home</a></li>
+    <li><a href="corsi.html"><small>02</small>Corsi</a></li>
+    <li><a href="abbonamenti.html"><small>03</small>Abbonamenti</a></li>
+  </ul>
+  <button class="btn" type="button" data-prova>Prova gratuita</button>
+</nav>
+<main id="main">
+
+<section class="hero" id="top">
+  <picture class="hero__img">
+    <source media="(min-width: 720px) and (orientation: landscape)" type="image/webp" srcset="assets/img/sala-l-900.webp 900w, assets/img/sala-l-1440.webp 1440w, assets/img/sala-l-1800.webp 1800w" sizes="100vw">
+    <img src="assets/img/sala-p-800.webp" srcset="assets/img/sala-p-480.webp 480w, assets/img/sala-p-800.webp 800w, assets/img/sala-p-1200.webp 1200w" sizes="100vw" width="1200" height="1799" alt="Una fila di gabbie da squat con i dischi appesi, in una sala pesi con il pavimento di gomma scura" fetchpriority="high">
+  </picture>
+  <div class="hero__frame" aria-hidden="true"><span class="ring" data-ring></span></div>
+  <p class="label hero__kicker">Palestra · sala pesi e corsi</p>
+  <h1 class="big hero__name" data-beat><span class="visually-hidden">Ferro 9, palestra</span><span class="ch" style="--i:0" aria-hidden="true">F</span><span class="ch" style="--i:1" aria-hidden="true">E</span><span class="ch" style="--i:2" aria-hidden="true">R</span><span class="ch" style="--i:3" aria-hidden="true">R</span><span class="ch" style="--i:4" aria-hidden="true">O</span></h1>
+  <div class="hero__row">
+    <div class="hero__tag">Il ferro pesa uguale per tutti.<span>Sala pesi, corsi, magnesia libera. La prima prova è gratis.</span>
+      <a class="link-arrow hero__more" href="#nastro">Cosa c'è in sala oggi</a></div>
+    <div class="big hero__nine" data-beat aria-hidden="true">9</div>
+  </div>
+</section>
+
+<div class="ribbon" id="nastro" data-ribbon role="region" aria-label="Prossimi corsi in sala">
+  <div class="ribbon__track"><div class="ribbon__group"><a href="corsi.html">Forza di base</a><a href="corsi.html">Circuito</a><a href="corsi.html">Kettlebell</a><a href="corsi.html">Mobilità</a><a href="corsi.html">Corpo libero</a></div></div>
+</div>
+
+<section class="section statement" id="sala" aria-labelledby="statement-t">
+  <h2 class="statement__text" id="statement-t" data-beat>Dischi da <mark>1,25&nbsp;kg</mark>. Perché due chili e mezzo in più, per te, sono una conquista.</h2>
+  <ul class="specs rv" aria-label="La sala in numeri (di esempio)">
+    <li><b>4</b><span>gabbie da squat con sicurezze</span></li>
+    <li><b>20&nbsp;kg</b><span>bilancieri olimpici</span></li>
+    <li><b>1,25–25</b><span>chili, i dischi, uno per uno</span></li>
+    <li><b>Libera</b><span>la magnesia, senza storie</span></li>
+  </ul>
+</section>
+
+<section class="section rack" id="bilanciere" aria-labelledby="rack-t">
+  <div class="rack__layout">
+    <div class="rack__head rv">
+      <p class="label">Provalo tu</p>
+      <h2 class="big rack__title" id="rack-t" data-beat>Quanto stacchi?</h2>
+      <p class="mute" style="margin-top:14px">Carica il bilanciere. Ogni disco va su tutti e due i lati, come in sala.</p>
+    </div>
+    <div class="rack__tool rv">
+      <div class="rack__stage framed" data-rack-stage>
+        <span class="ring" data-ring></span>
+        <svg class="rack__svg" viewBox="0 0 600 230" role="img" aria-label="Bilanciere con i dischi caricati" data-rack-svg>
+          <rect x="10" y="108" width="580" height="14" fill="#8a8d91"/>
+          <rect x="196" y="98" width="10" height="34" fill="#e4ff1a"/>
+          <rect x="394" y="98" width="10" height="34" fill="#e4ff1a"/>
+          <g data-rack-left></g><g data-rack-right></g>
+        </svg>
+        <div class="rack__total"><span class="rack__kg" data-rack-kg>20</span><span class="rack__unit">kg</span></div>
+        <p class="rack__note" data-rack-note aria-live="polite">Bilanciere scarico. Si parte da qui.</p>
+        <p class="rack__sides" data-rack-sides>Barra da 20 kg, nessun disco.</p>
+      </div>
+      <div class="rack__pad" role="group" aria-label="Aggiungi un disco per lato">
+        <button class="plate-btn" type="button" data-plate="25">25<small>kg</small></button>
+        <button class="plate-btn" type="button" data-plate="20">20<small>kg</small></button>
+        <button class="plate-btn" type="button" data-plate="15">15<small>kg</small></button>
+        <button class="plate-btn" type="button" data-plate="10">10<small>kg</small></button>
+        <button class="plate-btn" type="button" data-plate="5">5<small>kg</small></button>
+        <button class="plate-btn" type="button" data-plate="2.5">2,5<small>kg</small></button>
+        <button class="plate-btn" type="button" data-plate="1.25">1,25<small>kg</small></button>
+        <button class="plate-btn" type="button" data-rack-undo aria-label="Togli l'ultimo disco">Togli<small>ultimo</small></button>
+      </div>
+      <div class="rack__tools"><button class="btn btn--ghost btn--small" type="button" data-rack-clear>Scarica tutto</button>
+        <button class="btn btn--small" type="button" data-prova>Vieni a provarlo</button></div>
+    </div>
+  </div>
+</section>
+
+<section class="section lessons" id="corsi" aria-labelledby="lessons-t">
+  <p class="label rv">Cinque modi di lavorare</p>
+  <h2 class="big lessons__title" id="lessons-t" data-beat>I corsi</h2>
+  <ol class="lesson-list" style="list-style:none;padding:0">
+      <li class="lesson-item rv">
+        <details class="lesson" data-course="forza">
+          <summary><span class="lesson__n">01</span><span class="lesson__name">Forza di base</span><span class="lesson__plus" aria-hidden="true"></span></summary>
+          <div class="lesson__body">
+            <p>Squat, panca e stacco, con la progressione scritta sulla lavagna: ogni settimana un po&#x27; di più. Serie e ripetizioni, recuperi da due o tre minuti. Il coach corregge la tecnica prima del carico.</p>
+            <p class="lesson__meta"><span><b>60′</b> a lezione</span><span>Tutti i livelli</span><span>Si porta: scarpe piatte, magnesia se vuoi</span></p>
+            <div class="lesson__actions">
+              <button class="btn btn--small" type="button" data-prova data-corso="forza">Prova gratis</button>
+              <a class="link-arrow" href="corsi.html?corso=forza">Vedi gli orari</a>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="lesson-item rv">
+        <details class="lesson" data-course="circuito">
+          <summary><span class="lesson__n">02</span><span class="lesson__name">Circuito</span><span class="lesson__plus" aria-hidden="true"></span></summary>
+          <div class="lesson__body">
+            <p>Sei stazioni: kettlebell, corda, palla medica, sacco. Ogni minuto parte un giro (EMOM). Si suda, non si pensa.</p>
+            <p class="lesson__meta"><span><b>45′</b> a lezione</span><span>Tutti i livelli</span><span>Si porta: asciugamano e una bottiglia</span></p>
+            <div class="lesson__actions">
+              <button class="btn btn--small" type="button" data-prova data-corso="circuito">Prova gratis</button>
+              <a class="link-arrow" href="corsi.html?corso=circuito">Vedi gli orari</a>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="lesson-item rv">
+        <details class="lesson" data-course="kettlebell">
+          <summary><span class="lesson__n">03</span><span class="lesson__name">Kettlebell</span><span class="lesson__plus" aria-hidden="true"></span></summary>
+          <div class="lesson__body">
+            <p>Swing, goblet squat, turkish get-up. Pesi da 8 a 24 kg: la tecnica viene prima, il peso dopo.</p>
+            <p class="lesson__meta"><span><b>50′</b> a lezione</span><span>Anche chi parte da zero</span><span>Si porta: scarpe basse o piedi nudi</span></p>
+            <div class="lesson__actions">
+              <button class="btn btn--small" type="button" data-prova data-corso="kettlebell">Prova gratis</button>
+              <a class="link-arrow" href="corsi.html?corso=kettlebell">Vedi gli orari</a>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="lesson-item rv">
+        <details class="lesson" data-course="mobilita">
+          <summary><span class="lesson__n">04</span><span class="lesson__name">Mobilità</span><span class="lesson__plus" aria-hidden="true"></span></summary>
+          <div class="lesson__body">
+            <p>Anche, spalle e schiena: le articolazioni che il ferro stringe. Utile prima o dopo il bilanciere, o per chi sta tutto il giorno seduto.</p>
+            <p class="lesson__meta"><span><b>45′</b> a lezione</span><span>Tutti i livelli</span><span>Si porta: vestiti comodi</span></p>
+            <div class="lesson__actions">
+              <button class="btn btn--small" type="button" data-prova data-corso="mobilita">Prova gratis</button>
+              <a class="link-arrow" href="corsi.html?corso=mobilita">Vedi gli orari</a>
+            </div>
+          </div>
+        </details>
+      </li>
+      <li class="lesson-item rv">
+        <details class="lesson" data-course="corpo">
+          <summary><span class="lesson__n">05</span><span class="lesson__name">Corpo libero</span><span class="lesson__plus" aria-hidden="true"></span></summary>
+          <div class="lesson__body">
+            <p>Trazioni, parallele, flessioni, plank. Una sbarra e il tuo peso: nessun disco da caricare.</p>
+            <p class="lesson__meta"><span><b>50′</b> a lezione</span><span>Intermedio</span><span>Si porta: magnesia o guanti, se li usi</span></p>
+            <div class="lesson__actions">
+              <button class="btn btn--small" type="button" data-prova data-corso="corpo">Prova gratis</button>
+              <a class="link-arrow" href="corsi.html?corso=corpo">Vedi gli orari</a>
+            </div>
+          </div>
+        </details>
+      </li>
+  </ol>
+  <p style="margin-top:28px" class="rv"><a class="btn btn--ghost" href="corsi.html">Tutto l'orario della settimana</a></p>
+</section>
+
+<section class="section section--iron plans" id="abbonamenti" aria-labelledby="plans-t">
+  <p class="label rv">Abbonamenti</p>
+  <h2 class="big plans__title" id="plans-t" data-beat>Il prezzo<br>lo vedi subito</h2>
+  <div class="plan-pair">
+    <article class="plan rv">
+      <p class="plan__name">Solo sala pesi</p>
+      <p class="plan__price">39 €<small> /mese</small></p>
+      <ul class="plan__list"><li>Sala aperta dalle 6 alle 22</li><li>Magnesia e corda libere</li></ul>
+    </article>
+    <article class="plan plan--hot rv" style="--d:90ms">
+      <p class="plan__name">Sala pesi + corsi</p>
+      <p class="plan__price">54 €<small> /mese</small></p>
+      <ul class="plan__list"><li>Tutti i corsi dell'orario</li><li>Il coach corregge la tecnica</li></ul>
+    </article>
+  </div>
+  <p class="fineprint rv">Prezzi di esempio, solo per la dimostrazione. Con tre mesi o un anno il prezzo scende, e la mattina costa meno.</p>
+  <p style="margin-top:22px" class="rv"><a class="btn" href="abbonamenti.html#calcolatore">Calcola il tuo abbonamento</a></p>
+</section>
+
+<section class="section where" id="dove" aria-labelledby="where-t">
+  <div class="rv">
+    <p class="label">Dove e quando</p>
+    <h2 class="big where__title" id="where-t" data-beat>Porta aperta</h2>
+    <p class="open-now" style="margin-top:18px" data-open-now data-state="closed"><i></i><span>Orari di esempio</span></p>
+    <ul class="hours" data-hours></ul>
+  </div>
+  <div class="rv" style="--d:90ms">
+    <p class="label">Indirizzo (di esempio)</p>
+    <p class="address" style="margin-top:8px">Via dell'Esempio 1<br>Sardegna</p>
+    <p class="mute" style="margin-top:10px">Nessun numero di telefono: è una demo. Scrivere si può, via WhatsApp, a Mockly.</p>
+    <div class="where__actions"><button class="btn" type="button" data-prova>Prova gratuita</button>
+      <a class="btn btn--ghost" href="corsi.html">Orario corsi</a></div>
+  </div>
+</section>
+
+<section class="finale" aria-labelledby="finale-t">
+  <picture class="finale__img" aria-hidden="true">
+    <img src="assets/img/manubrio-1000.webp" srcset="assets/img/manubrio-480.webp 480w, assets/img/manubrio-800.webp 800w, assets/img/manubrio-1000.webp 1000w" sizes="100vw" width="1000" height="600" alt="" loading="lazy">
+  </picture>
+  <p class="label rv">Ancora una</p>
+  <h2 class="big finale__title" id="finale-t" data-beat><span>Ultima</span><span class="acid">serie.</span></h2>
+  <p class="finale__text rv">Poi la doccia. La prima prova è gratis: scegli giorno e ora, al resto pensa il ferro.</p>
+  <button class="btn" type="button" data-prova>Prenota la prova</button>
+</section>
+
+</main>
+<footer class="site-footer">
+  <ul class="site-footer__nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="corsi.html">Corsi</a></li>
+    <li><a href="abbonamenti.html">Abbonamenti</a></li>
+  </ul>
+  <p class="site-footer__demo">Sito dimostrativo realizzato da Mockly. L'attività è inventata.<br>
+    Vuoi un sito così per il tuo lavoro? <a href="https://wa.me/393517578080?text=Ciao%20Mockly%21%20Ho%20visto%20la%20demo%20del%20sito%20di%20Ferro%209%20%28palestra%20inventata%29.%20Vorrei%20un%20sito%20cos%C3%AC%20per%20il%20mio%20lavoro." rel="noopener">Scrivici su WhatsApp</a></p>
+  <small>Prezzi, orari, corsi e dotazioni sono di esempio. L'indirizzo (Via dell'Esempio 1) non esiste e non c'è nessun numero di telefono. Il sito non usa cookie né strumenti di statistica. Foto: vedi CREDITI.md.</small>
+</footer>
+<div class="cta-bar"><button class="btn" type="button" data-prova>Prova gratuita</button></div>
+<dialog class="sheet" id="prova" aria-labelledby="prova-titolo">
+  <div class="sheet__in">
+    <div class="sheet__top">
+      <h2 class="big sheet__title" id="prova-titolo">Prova gratuita</h2>
+      <button class="sheet__close" type="button" data-close aria-label="Chiudi">×</button>
+    </div>
+    <p class="sheet__demo"><strong>Dimostrazione.</strong> Non scrivi a una palestra vera: si apre WhatsApp con un messaggio già scritto a Mockly, lo studio che ha fatto il sito.</p>
+    <form class="form" id="prova-form" novalidate>
+      <div class="field" data-field="nome">
+        <label for="f-nome">Il tuo nome</label>
+        <input id="f-nome" name="nome" type="text" autocomplete="given-name" enterkeyhint="next" required>
+        <p class="field__err" id="e-nome" role="alert"></p>
+      </div>
+      <div class="field">
+        <label for="f-corso">Corso</label>
+        <select id="f-corso" name="corso"><option value="">Decide il coach</option><option value="forza">Forza di base</option><option value="circuito">Circuito</option><option value="kettlebell">Kettlebell</option><option value="mobilita">Mobilità</option><option value="corpo">Corpo libero</option></select>
+      </div>
+      <div class="field" data-field="giorno">
+        <label for="f-giorno">Giorno</label>
+        <select id="f-giorno" name="giorno" required><option value="">Scegli il giorno</option><option value="1">Lunedì</option><option value="2">Martedì</option><option value="3">Mercoledì</option><option value="4">Giovedì</option><option value="5">Venerdì</option><option value="6">Sabato</option></select>
+        <p class="field__err" id="e-giorno" role="alert"></p>
+      </div>
+      <fieldset class="field" data-field="fascia">
+        <legend>Quando preferisci</legend>
+        <div class="chips">
+          <label class="chip"><input type="radio" name="fascia" value="mattina"><span>Mattina</span></label>
+          <label class="chip"><input type="radio" name="fascia" value="pausa pranzo"><span>Pausa pranzo</span></label>
+          <label class="chip"><input type="radio" name="fascia" value="sera"><span>Sera</span></label>
+        </div>
+        <p class="field__err" id="e-fascia" role="alert"></p>
+      </fieldset>
+      <p class="form__status" id="prova-status" role="status" aria-live="polite"></p>
+      <button class="btn" type="submit">Apri WhatsApp</button>
+    </form>
+  </div>
+</dialog>
+<script src="assets/js/data.js?v=20261105a"></script>
+<script src="assets/js/main.js?v=20261105a"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "Ferro 9 (sito dimostrativo di Mockly)",
+  "short_name": "Ferro 9",
+  "lang": "it",
+  "start_url": "index.html",
+  "display": "browser",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "icons": [{ "src": "assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
